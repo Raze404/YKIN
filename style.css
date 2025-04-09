@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdf6e3;
+  color: #333;
+}
+
+#history {
+    background-color: #fff5e1;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Patrick Hand', cursive;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 48px;
+  color: #2c3e50;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #7f8c8d;
+  margin-bottom: 30px;
+}
+
+.input-section {
+  margin-bottom: 30px;
+}
+
+.input-section label {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="date"] {
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #fffef4;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  outline: none;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 15px;
+  box-shadow: 0 4px 0 #d35400;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #e67e22;
+  transform: translateY(-2px);
+}
+
+.results-section {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+  text-align: left;
+}
+
+.result-item {
+  background: #fef3bd;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 18px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.result-item::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 10px;
+  background: #d35400;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+  font-size: 14px;
+  background-color: #fcf8e3;
+  color: #555;
+  border-top: 1px solid #e6e6e6;
+}

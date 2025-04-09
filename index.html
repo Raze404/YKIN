@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Life in Numbers</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Your Life in Numbers</h1>
+    <p class="subtitle">Ever wondered how many sunsets you've seen?</p>
+
+    <div class="input-section">
+      <label for="birthdate">Pick Your Birthday</label>
+      <input type="date" id="birthdate" placeholder="YYYY-MM-DD" max="">
+      <button id="generate">Generate My Stats</button>
+    </div>
+
+    <div id="results" class="results-section">
+      <!-- Life stats will appear here -->
+    </div>
+
+    <div id="history" class="results-section">
+      <!-- API fun fact goes here -->
+    </div>
+
+    <button id="download" style="display: none;">Download Infographic (in work)</button>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Your Life in Numbers - All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
