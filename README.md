@@ -1,4 +1,4 @@
-# YKIN
+# YLIN
 🧠 Your Life in Numbers
 Ever wondered how many heartbeats you've had since you were born? Or how many slices of pizza you might've eaten?
 Your Life in Numbers is a fun and interactive web app that generates quirky and fascinating life stats based on your birthday!
